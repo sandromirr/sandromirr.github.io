@@ -32,7 +32,7 @@ function App() {
             </button>
             <img
               className="h-48 w-48 rounded-full shadow-lg mb-8"
-              src={resume.imageUrl}
+              src={resume.photoUrl}
               alt="Profile"
             />
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
@@ -77,7 +77,7 @@ function App() {
         <Projects projects={resume.projects} />
 
         {/* Contact Section */}
-        <Contact />
+        <Contact email={resume.email} githubUrl={resume.githubUrl} linkedInUrl={resume.linkedInUrl} />
       </main>
 
       {/* Footer */}

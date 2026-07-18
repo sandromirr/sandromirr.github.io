@@ -1,5 +1,5 @@
 {
-  "imageUrl": "/sandro_mirianashvili.jpg",
+  "photoUrl": "/sandro_mirianashvili.jpg",
   "fullName": "Sandro Mirianashvili",
   "title": "Full Stack Developer passionate about building exceptional web experiences",
   "githubUrl": "https://github.com/sandromirr",

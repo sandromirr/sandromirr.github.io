@@ -1,5 +1,5 @@
 {
-  "imageUrl": "/sandro_mirianashvili.jpg",
+  "photoUrl": "/sandro_mirianashvili.jpg",
   "fullName": "Sandro Mirianashvili",
   "title": "Full Stack Developer passionate about building exceptional web experiences",
   "githubUrl": "https://github.com/sandromirr",
@@ -24,7 +24,7 @@
   ],
   "educations": [
     {
-      "school": "University of Technology",
+      "school": "Tbilisi State University",
       "degree": "Bachelor of Science in Computer Science",
       "period": "2014 - 2018",
       "description": "Focused on software engineering, algorithms, and distributed systems.",

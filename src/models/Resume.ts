@@ -5,7 +5,7 @@ import type { Project } from './Project';
 import type { SkillCategory } from './SkillCategory';
 
 export interface Resume {
-  imageUrl: string;
+  photoUrl: string;
   fullName: string;
   title: string;
   githubUrl: string;
