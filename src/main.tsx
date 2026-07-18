@@ -4,10 +4,19 @@ import App from './App.tsx';
 import { ThemeProvider } from './ThemeContext';
 import './index.css';
 
-createRoot(document.getElementById('root')!).render(
+const app = (
   <StrictMode>
     <ThemeProvider>
       <App />
     </ThemeProvider>
   </StrictMode>
 );
+
+if (typeof document !== 'undefined') {
+  createRoot(document.getElementById('root')!).render(app);
+}
+
+export async function prerender() {
+  const { renderToString } = await import('react-dom/server');
+  return { html: renderToString(app) };
+}
