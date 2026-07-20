@@ -43,7 +43,7 @@ function Contact({ email, githubUrl, linkedInUrl }: ContactProps) {
           >
             <Linkedin className="h-8 w-8 mb-3 text-blue-600 dark:text-blue-400" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">LinkedIn</span>
-            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400">{linkedInHandle}</span>
+            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400">@{linkedInHandle}</span>
           </a>
         </div>
         <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700 text-center">

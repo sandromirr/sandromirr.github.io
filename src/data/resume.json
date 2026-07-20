@@ -1,7 +1,7 @@
 {
   "photoUrl": "/sandro_mirianashvili.jpg",
   "fullName": "Sandro Mirianashvili",
-  "title": "Full Stack Developer passionate about building exceptional web experiences",
+  "title": "Software Engineer from 🇬🇪",
   "githubUrl": "https://github.com/sandromirr",
   "linkedInUrl": "https://linkedin.com/in/sandromirr",
   "email": "mirianashvili.sandro@gmail.com",
@@ -10,14 +10,35 @@
     {
       "company": "HRRA",
       "position": "Senior Software Engineer",
-      "period": "2020 - Present",
+      "period": "2023 - Present",
+      "description": "Led development of enterprise web applications using React and Node.js.",
+      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+    },
+    {
+      "company": "IT Center Mziuri",
+      "position": "Course Instructor & Mentor",
+      "period": "2019 - present",
+      "description": "Led development of enterprise web applications using React and Node.js.",
+      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+    },
+    {
+      "company": "GITA",
+      "position": "Course Instructor & Mentor",
+      "period": "2023 - present",
       "description": "Led development of enterprise web applications using React and Node.js.",
       "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
     },
     {
       "company": "HRRA",
       "position": "Software Engineer",
-      "period": "2020 - Present",
+      "period": "2021 - 2023",
+      "description": "Led development of enterprise web applications using React and Node.js.",
+      "logo": "/hr_logo.png"
+    },
+    {
+      "company": "Geolab",
+      "position": "Software Engineer",
+      "period": "2018 - 2019",
       "description": "Led development of enterprise web applications using React and Node.js.",
       "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
     }
@@ -26,9 +47,9 @@
     {
       "school": "Tbilisi State University",
       "degree": "Bachelor of Science in Computer Science",
-      "period": "2014 - 2018",
+      "period": "2015 - 2019",
       "description": "Focused on software engineering, algorithms, and distributed systems.",
-      "logo": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=128&h=128&auto=format&fit=crop"
+      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
     }
   ],
   "projects": [
@@ -38,7 +59,22 @@
       "link": "https://github.com"
     },
     {
-      "title": "Task Management App",
+      "title": "Portfolio Web App",
+      "description": "Real-time task management application using React and Firebase",
+      "link": "https://github.com"
+    },
+    {
+      "title": "HRRA Portal",
+      "description": "A full-featured online store built with React and Node.js",
+      "link": "https://hr.ge"
+    },
+    {
+      "title": "HRRA Customer Portal",
+      "description": "Real-time task management application using React and Firebase",
+      "link": "https://github.com"
+    },
+    {
+      "title": "HRRA Admin Portal",
       "description": "Real-time task management application using React and Firebase",
       "link": "https://github.com"
     }
@@ -64,6 +100,21 @@
   "achievements": [
     {
       "title": "Tech Leadership",
+      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
+      "highlight": "40% increase in team productivity"
+    },
+    {
+      "title": "Google I/O Hackathon",
+      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
+      "highlight": "40% increase in team productivity"
+    },
+    {
+      "title": "Garage48 Hackathon",
+      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
+      "highlight": "40% increase in team productivity"
+    },
+    {
+      "title": "SIA Impact Awards",
       "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
       "highlight": "40% increase in team productivity"
     }

@@ -23,7 +23,13 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const root = window.document.documentElement;
     root.classList.remove('dark', 'light');
     root.classList.add(theme);
+    root.style.colorScheme = theme;
     localStorage.setItem('theme', theme);
+
+    const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeColorMeta) {
+      themeColorMeta.setAttribute('content', theme === 'dark' ? '#1f2937' : '#f3f4f6');
+    }
   }, [theme]);
 
   const toggleTheme = () => {

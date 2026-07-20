@@ -33,7 +33,8 @@ function App() {
             <img
               className="h-48 w-48 rounded-full shadow-lg mb-8"
               src={resume.photoUrl}
-              alt="Profile"
+              alt={resume.fullName}
+              title={resume.fullName}
             />
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
               {resume.fullName}
