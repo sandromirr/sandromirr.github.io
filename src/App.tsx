@@ -13,7 +13,7 @@ import {
 import resumeData from './data/resume.json';
 import type { Resume } from './models/Resume';
 
-const resume = resumeData as Resume;
+const resume: Resume = resumeData;
 
 function App() {
   const { theme, toggleTheme } = useTheme();
@@ -41,6 +41,14 @@ function App() {
             </h1>
             <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-2xl">
               {resume.title}
+              {resume.flagUrl && (
+                <img
+                  className="inline-block h-3 w-[18px] ml-1.5 align-baseline rounded-sm shadow-sm"
+                  src={resume.flagUrl}
+                  alt={resume.country}
+                  title={resume.country}
+                />
+              )}
             </p>
             <div className="mt-6 flex space-x-6">
               <a href={resume.githubUrl} className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
@@ -62,12 +70,6 @@ function App() {
         {/* About Section */}
         <About text={resume.about} />
 
-        {/* Skills Section */}
-        <Skills skillCategories={resume.skills} />
-
-        {/* Achievements Section */}
-        <Achievements achievements={resume.achievements} />
-
         {/* Experience Section */}
         <Experiences jobs={resume.experiences} />
 
@@ -77,8 +79,19 @@ function App() {
         {/* Projects Section */}
         <Projects projects={resume.projects} />
 
+        {/* Skills Section */}
+        <Skills skillCategories={resume.skills} />
+
+        {/* Achievements Section */}
+        <Achievements achievements={resume.achievements} />
+
         {/* Contact Section */}
-        <Contact email={resume.email} githubUrl={resume.githubUrl} linkedInUrl={resume.linkedInUrl} />
+        <Contact
+          email={resume.email}
+          githubUrl={resume.githubUrl}
+          linkedInUrl={resume.linkedInUrl}
+          availability={resume.availability}
+        />
       </main>
 
       {/* Footer */}

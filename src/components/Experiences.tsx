@@ -21,6 +21,7 @@ function Experiences({ jobs }: ExperiencesProps) {
             period={job.period}
             description={job.description}
             logo={job.logo}
+            logoDark={job.logoDark}
           />
         ))}
       </div>

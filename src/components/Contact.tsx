@@ -1,14 +1,20 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import type { Availability } from '../models/Availability';
 
 interface ContactProps {
   email: string;
   githubUrl: string;
   linkedInUrl: string;
+  availability: Availability;
 }
 
-function Contact({ email, githubUrl, linkedInUrl }: ContactProps) {
+function Contact({ email, githubUrl, linkedInUrl, availability }: ContactProps) {
   const githubHandle = githubUrl.replace(/\/$/, '').split('/').pop();
   const linkedInHandle = linkedInUrl.replace(/\/$/, '').split('/').pop();
+  const openTo = [
+    availability.freelance && 'freelance projects',
+    availability.fullTime && 'full-time opportunities',
+  ].filter(Boolean).join(' and ');
 
   return (
     <section className="mb-16">
@@ -16,14 +22,14 @@ function Contact({ email, githubUrl, linkedInUrl }: ContactProps) {
         <Mail className="mr-2" /> Get In Touch
       </h2>
       <div className="bg-white dark:bg-gray-800 shadow rounded-lg p-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           <a
             href={`mailto:${email}`}
             className="flex flex-col items-center p-6 bg-gray-50 dark:bg-gray-700/50 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300"
           >
             <Mail className="h-8 w-8 mb-3 text-blue-500 dark:text-blue-400" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Email</span>
-            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400">{email}</span>
+            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400 text-center break-all">{email}</span>
           </a>
           <a
             href={githubUrl}
@@ -33,7 +39,7 @@ function Contact({ email, githubUrl, linkedInUrl }: ContactProps) {
           >
             <Github className="h-8 w-8 mb-3 text-gray-700 dark:text-gray-300" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">GitHub</span>
-            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400">@{githubHandle}</span>
+            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400 text-center break-all">@{githubHandle}</span>
           </a>
           <a
             href={linkedInUrl}
@@ -43,11 +49,11 @@ function Contact({ email, githubUrl, linkedInUrl }: ContactProps) {
           >
             <Linkedin className="h-8 w-8 mb-3 text-blue-600 dark:text-blue-400" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">LinkedIn</span>
-            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400">@{linkedInHandle}</span>
+            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400 text-center break-all">@{linkedInHandle}</span>
           </a>
         </div>
         <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700 text-center">
-          <p className="text-gray-600 dark:text-gray-400 mb-4">Available for freelance projects and full-time opportunities</p>
+          {openTo && <p className="text-gray-600 dark:text-gray-400 mb-4">Available for {openTo}</p>}
           <a
             href={`mailto:${email}`}
             className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200"

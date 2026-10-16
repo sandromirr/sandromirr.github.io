@@ -4,4 +4,5 @@ export interface Experience {
   period: string;
   description: string;
   logo: string;
+  logoDark?: string;
 }

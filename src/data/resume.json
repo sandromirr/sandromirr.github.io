@@ -1,46 +1,54 @@
 {
   "photoUrl": "/sandro_mirianashvili.jpg",
   "fullName": "Sandro Mirianashvili",
-  "title": "Software Engineer from 🇬🇪",
+  "title": "Software Engineer from",
+  "country": "Georgia",
+  "flagUrl": "/flags/ge.svg",
   "githubUrl": "https://github.com/sandromirr",
   "linkedInUrl": "https://linkedin.com/in/sandromirr",
   "email": "mirianashvili.sandro@gmail.com",
-  "about": "I'm a full-stack developer with 5+ years of experience building web applications. I specialize in React, Node.js, and cloud technologies. My passion lies in creating efficient, scalable solutions that solve real-world problems.",
+  "availability": {
+    "freelance": false,
+    "fullTime": false
+  },
+  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   "experiences": [
     {
       "company": "HRRA",
       "position": "Senior Software Engineer",
-      "period": "2023 - Present",
-      "description": "Led development of enterprise web applications using React and Node.js.",
-      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+      "period": "Jan 2023 - present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "logo": "/hr_logo.svg",
+      "logoDark": "/hr_logo_dark.svg"
     },
     {
       "company": "IT Center Mziuri",
       "position": "Course Instructor & Mentor",
-      "period": "2019 - present",
-      "description": "Led development of enterprise web applications using React and Node.js.",
-      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+      "period": "Apr 2019 - present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "logo": "/mziuri_logo.png"
     },
     {
       "company": "GITA",
       "position": "Course Instructor & Mentor",
-      "period": "2023 - present",
-      "description": "Led development of enterprise web applications using React and Node.js.",
-      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+      "period": "Sep 2024 - present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "logo": "/gita_logo.png"
     },
     {
       "company": "HRRA",
       "position": "Software Engineer",
-      "period": "2021 - 2023",
-      "description": "Led development of enterprise web applications using React and Node.js.",
-      "logo": "/hr_logo.png"
+      "period": "Aug 2021 - Jan 2023",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "logo": "/hr_logo.svg",
+      "logoDark": "/hr_logo_dark.svg"
     },
     {
       "company": "Geolab",
       "position": "Software Engineer",
-      "period": "2018 - 2019",
-      "description": "Led development of enterprise web applications using React and Node.js.",
-      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+      "period": "Dec 2018 - Apr 2019",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "logo": "/geolab_logo.png"
     }
   ],
   "educations": [
@@ -49,73 +57,68 @@
       "degree": "Bachelor of Science in Computer Science",
       "period": "2015 - 2019",
       "description": "Focused on software engineering, algorithms, and distributed systems.",
-      "logo": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=128&h=128&auto=format&fit=crop"
+      "logo": "/tsu_logo.png"
     }
   ],
   "projects": [
     {
-      "title": "E-commerce Platform",
-      "description": "A full-featured online store built with React and Node.js",
-      "link": "https://github.com"
-    },
-    {
       "title": "Portfolio Web App",
-      "description": "Real-time task management application using React and Firebase",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "link": "https://github.com"
     },
     {
       "title": "HRRA Portal",
-      "description": "A full-featured online store built with React and Node.js",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "link": "https://hr.ge"
     },
     {
       "title": "HRRA Customer Portal",
-      "description": "Real-time task management application using React and Firebase",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "link": "https://github.com"
     },
     {
       "title": "HRRA Admin Portal",
-      "description": "Real-time task management application using React and Firebase",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "link": "https://github.com"
+    },
+    {
+      "title": "HRGE Android Mobile App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "link": "https://play.google.com/store/apps/details?id=ge.hr.app"
     }
   ],
   "skills": [
     {
-      "category": "Frontend Development",
-      "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js", "HTML5/CSS3", "JavaScript"]
+      "category": "Languages & Frameworks",
+      "skills": ["C#", ".NET", "ASP.NET Core", "Angular", "Python", "Flask", "Node.js"]
     },
     {
-      "category": "Backend Development",
-      "skills": ["Node.js", "Express", "PostgreSQL", "GraphQL", "RESTful APIs", "MongoDB"]
+      "category": "Databases & Tools",
+      "skills": ["Docker", "MongoDB", "Elasticsearch", "AWS", "Redis", "DynamoDB", "Git"]
     },
     {
-      "category": "DevOps & Tools",
-      "skills": ["Git", "Docker", "AWS", "CI/CD", "Linux", "Kubernetes"]
+      "category": "Software Engineering",
+      "skills": ["Algorithms", "Data Structures", "C++", "Unit Testing", "Code Review"]
     },
     {
       "category": "Soft Skills",
-      "skills": ["Problem Solving", "Team Collaboration", "Communication", "Project Management", "Agile/Scrum", "Mentoring"]
+      "skills": ["Teaching", "Mentoring", "Curriculum Development", "Public Speaking", "Problem Solving", "Team Collaboration"]
     }
   ],
   "achievements": [
     {
-      "title": "Tech Leadership",
-      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
-      "highlight": "40% increase in team productivity"
-    },
-    {
       "title": "Google I/O Hackathon",
-      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "highlight": "40% increase in team productivity"
     },
     {
       "title": "Garage48 Hackathon",
-      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "highlight": "40% increase in team productivity"
     },
     {
       "title": "SIA Impact Awards",
-      "description": "Led a team of 8 developers to successfully deliver a major enterprise platform",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "highlight": "40% increase in team productivity"
     }
   ]

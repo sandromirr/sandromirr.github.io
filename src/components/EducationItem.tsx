@@ -20,7 +20,7 @@ function EducationItem({ school, degree, period, description, logo }: EducationI
         <div className="ml-4">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{degree}</h3>
           <p className="text-gray-600 dark:text-gray-300 mt-1">{school} • {period}</p>
-          <p className="mt-4 text-gray-600 dark:text-gray-300">{description}</p>
+          <p className="mt-1 text-gray-600 dark:text-gray-300">{description}</p>
         </div>
       </div>
     </div>
