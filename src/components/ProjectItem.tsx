@@ -15,7 +15,10 @@ function ProjectItem({ title, description, link }: ProjectItemProps) {
           <ExternalLink className="h-5 w-5" />
         </a>
       </h3>
-      <p className="mt-4 text-gray-600 dark:text-gray-300">{description}</p>
+      <p
+        className="mt-4 text-gray-600 dark:text-gray-300 [&_a]:text-blue-600 dark:[&_a]:text-blue-400 [&_a]:font-medium [&_a:hover]:underline"
+        dangerouslySetInnerHTML={{ __html: description }}
+      />
     </div>
   );
 }

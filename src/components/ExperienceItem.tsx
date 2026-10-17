@@ -28,7 +28,10 @@ function ExperienceItem({ company, position, period, description, logo, logoDark
         <div className="ml-4">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{position}</h3>
           <p className="text-gray-600 dark:text-gray-300 mt-1">{company} • {period}</p>
-          <p className="mt-4 text-gray-600 dark:text-gray-300">{description}</p>
+          <div
+            className="mt-4 space-y-3 text-gray-600 dark:text-gray-300 [&_ul]:list-disc [&_ul]:pl-5 [&_ul]:space-y-1"
+            dangerouslySetInnerHTML={{ __html: description }}
+          />
         </div>
       </div>
     </div>

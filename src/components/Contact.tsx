@@ -29,7 +29,7 @@ function Contact({ email, githubUrl, linkedInUrl, availability }: ContactProps) 
           >
             <Mail className="h-8 w-8 mb-3 text-blue-500 dark:text-blue-400" />
             <span className="text-sm font-medium text-gray-700 dark:text-gray-300">Email</span>
-            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400 text-center break-all">{email}</span>
+            <span className="text-sm mt-1 text-gray-500 dark:text-gray-400 text-center">Send an email</span>
           </a>
           <a
             href={githubUrl}

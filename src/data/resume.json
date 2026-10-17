@@ -11,13 +11,13 @@
     "freelance": false,
     "fullTime": false
   },
-  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  "about": "Software Engineer with 8 years of experience.",
   "experiences": [
     {
       "company": "HRRA",
       "position": "Senior Software Engineer",
       "period": "Jan 2023 - present",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "",
       "logo": "/hr_logo.svg",
       "logoDark": "/hr_logo_dark.svg"
     },
@@ -25,21 +25,21 @@
       "company": "IT Center Mziuri",
       "position": "Course Instructor & Mentor",
       "period": "Apr 2019 - present",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "<ul><li>Designed the Python course syllabus from scratch, structuring topics into a clear, step-by-step learning path.</li><li>Teach programming fundamentals in Python and C++, from core syntax to algorithms and data structures.</li><li>Introduce students to web development with Flask, HTML and CSS.</li><li>Mentor students through code reviews of their assignments, helping them write cleaner, more readable code.</li></ul><p><strong>Skills:</strong> Python · C++ · Algorithms · Data Structures · Flask · HTML · CSS</p>",
       "logo": "/mziuri_logo.png"
     },
     {
       "company": "GITA",
       "position": "Course Instructor & Mentor",
       "period": "Sep 2024 - present",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "<ul><li>Teach programming fundamentals to beginners, building a solid foundation in logic, problem solving and core coding concepts.</li><li>Teach Python, from basic syntax to writing complete, working programs.</li><li>Introduce students to web technologies and how modern websites are built.</li><li>Achieved a 95% student success rate across my courses.</li></ul><p><strong>Skills:</strong> Python · Programming Fundamentals · Web Technologies · Teaching · Mentoring</p>",
       "logo": "/gita_logo.png"
     },
     {
       "company": "HRRA",
       "position": "Software Engineer",
       "period": "Aug 2021 - Jan 2023",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "",
       "logo": "/hr_logo.svg",
       "logoDark": "/hr_logo_dark.svg"
     },
@@ -47,7 +47,7 @@
       "company": "Geolab",
       "position": "Software Engineer",
       "period": "Dec 2018 - Apr 2019",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "description": "<ul><li>Developed a student portfolio web application where students post and showcase their projects.</li><li>Gave students one place to present their work, making it easy to share with teachers, classmates and future employers.</li></ul>",
       "logo": "/geolab_logo.png"
     }
   ],
@@ -56,34 +56,41 @@
       "school": "Tbilisi State University",
       "degree": "Bachelor of Science in Computer Science",
       "period": "2015 - 2019",
-      "description": "Focused on software engineering, algorithms, and distributed systems.",
+      "description": "Focused on algorithms and data structures, and regularly competed in hackathons, online programming competitions and challenges.",
       "logo": "/tsu_logo.png"
+    },
+    {
+      "school": "IT Center Mziuri",
+      "degree": "Software Engineering",
+      "period": "2009 - 2015",
+      "description": "Learned programming fundamentals and computer science basics, and later returned to Mziuri as a course instructor.",
+      "logo": "/mziuri_logo.png"
     }
   ],
   "projects": [
     {
       "title": "Portfolio Web App",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "",
       "link": "https://github.com"
     },
     {
       "title": "HRRA Portal",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "<a href=\"https://hr.ge\" target=\"_blank\" rel=\"noopener noreferrer\">HR.GE</a> is a job portal in Georgia that connects job seekers with employers. Job seekers can search and apply for vacancies, and companies can post jobs and find the right candidates.",
       "link": "https://hr.ge"
     },
     {
       "title": "HRRA Customer Portal",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "",
       "link": "https://github.com"
     },
     {
       "title": "HRRA Admin Portal",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "",
       "link": "https://github.com"
     },
     {
       "title": "HRGE Android Mobile App",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "",
       "link": "https://play.google.com/store/apps/details?id=ge.hr.app"
     }
   ],
@@ -108,18 +115,23 @@
   "achievements": [
     {
       "title": "Google I/O Hackathon",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "highlight": "40% increase in team productivity"
+      "description": "Created a web app that helps people choose a university and faculty. It suggests options based on their interests (like sports, science, technology or books), their location, and other factors.",
+      "highlight": "🥈 2nd Place"
     },
     {
       "title": "Garage48 Hackathon",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "highlight": "40% increase in team productivity"
+      "description": "Created an Android app that connects people with simple, one-time jobs. Our team built it in 48 hours using Java and Kotlin in Android Studio.",
+      "highlight": "🥇 1st Place / Winner"
     },
     {
-      "title": "SIA Impact Awards",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "highlight": "40% increase in team productivity"
+      "title": "Social Impact Award",
+      "description": "My team and I won the 2017 competition with our project, Braille Reader.",
+      "highlight": "🏆 Winner / Top 3 Team"
+    },
+    {
+      "title": "School Gold Medal",
+      "description": "Graduated from school with honors and was awarded the gold medal for excellent academic performance.",
+      "highlight": "🥇 Gold Medal"
     }
   ]
 }
